@@ -9,6 +9,7 @@
     border-radius: 12px;
     align-items: center;
     justify-content: center;
+   
   }
   
   .expense-date__month {
@@ -23,4 +24,18 @@
   .expense-date__day {
     font-size: 1.5rem;
     font-weight: bold;
+  }
+
+  @media (max-width:576px) {
+    .expense-date {
+      width: 4rem;
+      height: 4rem;
+      padding: 1rem
+    }
+    .expense-date__month,.expense-date__year {
+      font-size: 0.65rem;
+    }
+    .expense-date__day {
+      font-size:1.2rem
+    }
   }

@@ -7,3 +7,12 @@
     color: white;
     text-align: center;
   }
+
+  @media (max-width:576px) {
+    .expenses-list__fallback {
+      font-size: 1.1rem;
+    }
+    select {
+      zoom: 0.9;
+    }
+  }

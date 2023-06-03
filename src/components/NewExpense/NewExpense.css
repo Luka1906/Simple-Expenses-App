@@ -17,7 +17,8 @@
     background-color: #40005d;
     color: white;
     border-radius: 12px;
-    margin-right: 1rem;
+
+   
   }
   
   .new-expense button:hover,
@@ -35,4 +36,12 @@
   .new-expense button.alternative:hover,
   .new-expense button.alternative:active {
     background-color: #ddb3f8;
+  }
+
+  @media (max-width:576px) {
+    .new-expense button {
+      font-size: 0.8rem;
+  
+     
+    }
   }

@@ -4,6 +4,8 @@
     gap: 1rem;
     margin-bottom: 1rem;
     text-align: left;
+   
+  
   }
   
   .new-expense__control label {
@@ -22,5 +24,24 @@
   }
   
   .new-expense__actions {
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.6rem;
+  }
+
+  @media (max-width:500px) {
+    .new-expense__control {
+     margin: 0 auto;
+    
+    }
+    .new-expense__actions {
+    justify-content: center;
+    }
+    .new-expense__controls input {
+      width: 15rem;
+      font-size: 0.8rem;
+      
+      
+    }
+
   }
